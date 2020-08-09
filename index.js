@@ -340,7 +340,7 @@ powerdot.pcountdown = 0;
     context.font = "20px Verdana";
     context.fillStyle = "white";
     context.fillText("Pacman:" + score + " vs Ghost: " + gscore , 2, 18);
-   context.fillText(" Copyright © || Made with ❤️ by Prakhar Dayal",110,390);
+   context.fillText("Made with ❤️ by Prakhar Dayal",265,390);
     // draw characters
     context.drawImage(mainImage, enemy2.ghostNum, enemy2.flash, 32, 32, enemy2.x, enemy2.y, 32, 32);
     context.drawImage(mainImage, enemy.ghostNum, enemy.flash, 32, 32, enemy.x, enemy.y, 32, 32);
